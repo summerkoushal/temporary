@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-content {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.header-logo {
+    padding: 1px 15px;
+}
+
+header > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
