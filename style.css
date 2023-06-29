@@ -10,6 +10,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 
 .nav-logo {
@@ -66,6 +67,11 @@ header {
 
 .card {
     font-size: 10px;
+    border-radius: 0px;
+}
+
+.card-img-top {
+    border-radius: 0px;
 }
 
 .service-card-heading {
@@ -73,4 +79,76 @@ header {
     margin-bottom: 10px;
     font-weight:bolder;
     color: #435873;
+}
+
+/* about  */
+.about {
+    display: flex;
+}
+
+.about-heading {
+    text-align: center;
+    margin: 35px;
+}
+
+.about-paragraph {
+    padding: 0px 10px 10px 50px;
+    font-size: 12px;
+}
+
+.project-numbers {
+    display: flex;
+}
+
+.project-box {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px;
+}
+
+.projects-heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gall {
+    width: 300px;
+    margin: 10px;
+}
+
+.client-heading {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.sponser-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponsers {
+    text-align: center;
+    padding: 40px;
+    font-size: 14px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-vid {
+    width: 85vw;
+}
+
+.map {
+    text-align: center;
 }
