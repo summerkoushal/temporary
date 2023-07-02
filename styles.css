@@ -275,8 +275,11 @@ h3 {
         font-size: 1rem;
     }
     .card {
-    width: 80vw !important;
-}
+        width: 80vw !important;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
 }
 
 /* for mobile version */
