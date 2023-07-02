@@ -226,7 +226,7 @@ h2 {
 .contact-form {
     display: flex;
     justify-content: space-evenly;
-    margin: 4rem auto;
+    margin: 3rem auto;
 }
 
 h3 {
@@ -237,6 +237,17 @@ h3 {
 .Contact-us-form {
     display: flex;
     flex-direction: column;
+}
+
+label, input, textarea {
+    margin: 4px;
+    /* text-align: center; */
+}
+
+.submit-form {
+    margin: 20px auto;
+    /* margin: auto; */
+    width: 150px;
 }
 
 /* for tablet version */
@@ -280,6 +291,10 @@ h3 {
     .contact-form {
         flex-direction: column;
     }
+    .firstpara, .secondpara {
+        width: 80%;
+        margin: auto;
+    }
 }
 
 /* for mobile version */
@@ -293,5 +308,8 @@ h3 {
     }
     .bg-video {
         min-height: 40rem;
+    }
+    .contact-form {
+    margin: 1rem auto;
     }
 }
