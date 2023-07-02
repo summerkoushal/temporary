@@ -40,6 +40,7 @@ ul {
     display: flex;
     font-size: 1.2rem;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 /* main body styling  */
@@ -147,8 +148,8 @@ h2 {
 }
 
 .gall {
-    width: 300px;
-    margin: 10px;
+    width: 25rem;
+    margin: 5rem;
 }
 
 .client-heading {
@@ -160,6 +161,7 @@ h2 {
 .sponser-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sponsers {
