@@ -12,68 +12,73 @@
 
 
     <!-- Navbar  -->
-    <header>
-        <div class="col-6 logo">
+    <header class="bg-light" >
+        <div class="col-4 logo">
             <img class="logo-img" src="./media/favicon.PNG" alt="logo">
         </div>
-        <ul class=" col-6 nav-link-container">
+        <ul class=" col-7 nav-link-container">
             <li><a class="nav-link" href="#">About Us</a></li>
             <li><a class="nav-link" href="#">Project</a></li>
             <li><a class="nav-link" href="#">Services</a></li>
             <li><a class="nav-link" href="#">Contact Us</a></li>
         </ul>
+        <!-- navbar dropdown  -->
+        <div class="btn-group nav-dropdown">
+        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
+        <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" type="button">About Us</button></li>
+            <li><button class="dropdown-item" type="button">Project</button></li>
+            <li><button class="dropdown-item" type="button">Services</button></li>
+            <li><button class="dropdown-item" type="button">Contact Us</button></li>
+        </ul>
+        </div>
     </header>
 
 
     <!-- main content  -->
     <main>
 
+
         <!-- front page video  -->
         <div>
             <video class="bg-video" autoplay loop muted src="./media/bg-video.mp4"><video>
-            <!-- <div class="div-container ">
-                <h1 class="main-content i1 text-danger">LEADERS IN QUALITY</h1>
-                <h1 class="main-content i2 text-danger">CONSTRUCTION AND</h1>
-                <h1 class="main-content i3 text-danger">INFRASTRUCTURE</h1>
-                <button class="btn i4 main-content text-danger">V</button> <br>
-            </div> -->
         </div>
 
 
     <!-- corrosal  -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./media/gallery1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./media/gallery2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./media/gallery3.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./media/gallery4.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./media/gallery1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/gallery2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/gallery3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./media/gallery4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         
+
         <!-- about content  -->
         <div class="about col bg-body-secondary">
-            <div class="about-content col-5">
+            <div class="about-content">
                 <h1 class="about-heading">About</h1>
-                <p class="about-paragraph" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur omnis saepe id animi, vitae dolor aut laboriosam exercitationem eum molestiae nulla, deleniti perspiciatis, commodi quis quibusdam vero cum totam. Neque, consequatur expedita hic provident quia odio omnis? Sequi ullam unde tenetur iste labore veritatis cupiditate molestiae aspernatur, ab nesciunt, esse soluta aut aperiam officia eveniet explicabo at enim dignissimos, praesentium fugiat earum saepe. Officiis aperiam perspiciatis corporis modi inventore exercitationem alias, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ea. dolorem dicta quos iure illum? Voluptates.</p>
                 <p class="about-paragraph" >Lorem ipsumos dediandae saepe, vetur. Fugit repudiandae iure non, eum sed ipsum iste, labore aliquid eveniet, quia nisi quos sunt quis facilis obcaecati quo consequatur modi! Consequatur, explicabo illum itaque perferendis minima porro eveniet sapiente, distinctio iste provident voluptates molestias odio accusamus quam repellendus iusto dolore molestiae esse labore excepturi debitis. Ex obcaecati et explicabo dicta molestiae maiores itaque iusto.</p>
             </div>
-            <div class="about-image col-6">
+            <div class="about-image">
                 <img class="col-12" src="./media/about-building.jpg" alt="">
             </div>
         </div>
@@ -95,7 +100,6 @@
                 <img class="gall" src="media/gallery3.jpg" alt="">
                 <!-- <img class="gall" src="media/gallery4.jpg" alt=""> -->
             </div>
-
             <h2>Completed...</h2>
             <div class="project-gallery">
                 <img class="gall" src="media/gallery1.jpg" alt="">
@@ -137,33 +141,33 @@
                     </div>
                 </div>
         </div>
-
-
-
     </main>
 
 
-    <div>
-                <h1 class="contact-heading">CONTACT</h1>
-                <div class="mapcont">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d53714.17363040485!2d74.8781568!3d32.7090176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688034938524!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-
-        </div>
     <!-- contact page  -->
+    <div>
+        <h1 class="contact-heading">CONTACT</h1>
+        <div class="mapcont">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d53714.17363040485!2d74.8781568!3d32.7090176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688034938524!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+    <!-- footer as client sponsers  -->
     <footer>
-                <!-- clients content  -->
         <div class="clients bg-body-secondary">
             <h1 class="client-heading">CLIENTS</h1>
-            <div class="sponser-container container">
-                <div class="sponsers col-2">TIPOX</div>
+            <div class="sponser-container">
                 <div class="sponsers col-2">EXCIPIA</div>
-                <div class="sponsers col-2">VIDE</div>
+                <div class="sponsers col-2">TIPOX</div>
                 <div class="sponsers col-2">DEHOTEL</div>
+                <div class="sponsers col-2">VIDE</div>
                 <div class="sponsers col-2">UMBER & CO</div>
             </div>
         </div>
     </footer>
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </html>
