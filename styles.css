@@ -178,5 +178,11 @@ h2 {
 }
 
 .map {
+    height: 30vh;
+    width: 70vw;
+    text-align: center;
+}
+
+.mapcont {
     text-align: center;
 }
