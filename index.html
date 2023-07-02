@@ -12,15 +12,17 @@
 
 
     <!-- Navbar  -->
-    <header class="bg-light" >
-        <div class="col-4 logo">
-            <img class="logo-img" src="./media/favicon.PNG" alt="logo">
+    <header>
+        <div  class="col-5 logo">
+            <a href="#main-body">
+                <img class="logo-img" src="./media/favicon.PNG" alt="Company-logo">
+            </a>
         </div>
         <ul class=" col-7 nav-link-container">
-            <li><a class="nav-link" href="#">About Us</a></li>
-            <li><a class="nav-link" href="#">Project</a></li>
-            <li><a class="nav-link" href="#">Services</a></li>
-            <li><a class="nav-link" href="#">Contact Us</a></li>
+            <li><a class="nav-link" href="#about">About Us</a></li>
+            <li><a class="nav-link" href="#Project">Project</a></li>
+            <li><a class="nav-link" href="#Services">Services</a></li>
+            <li><a class="nav-link" href="#Contact-heading">Contact</a></li>
         </ul>
         <!-- navbar dropdown  -->
         <div class="btn-group nav-dropdown">
@@ -36,7 +38,7 @@
 
 
     <!-- main content  -->
-    <main>
+    <main  id="main-body" >
 
 
         <!-- front page video  -->
@@ -73,7 +75,7 @@
         
 
         <!-- about content  -->
-        <div class="about col bg-body-secondary">
+        <div id="about" class="about col bg-body-secondary">
             <div class="about-content">
                 <h1 class="about-heading">About</h1>
                 <p class="about-paragraph" >Lorem ipsumos dediandae saepe, vetur. Fugit repudiandae iure non, eum sed ipsum iste, labore aliquid eveniet, quia nisi quos sunt quis facilis obcaecati quo consequatur modi! Consequatur, explicabo illum itaque perferendis minima porro eveniet sapiente, distinctio iste provident voluptates molestias odio accusamus quam repellendus iusto dolore molestiae esse labore excepturi debitis. Ex obcaecati et explicabo dicta molestiae maiores itaque iusto.</p>
@@ -91,7 +93,7 @@
 
         
         <!-- projects content -->
-        <div class="projects container">
+        <div id="Project" class="projects container">
             <h1 class="projects-heading">PROJECTS</h1>
             <h2>Ongoing...</h2>
             <div class="project-gallery">
@@ -111,7 +113,7 @@
 
 
         <!-- services main content  -->
-        <div class="services ">
+        <div id="Services" class="services ">
             <!-- heading services  -->
             <h2 class="service-heading">SERVICES</h2>
             <!-- services content container  -->
@@ -145,10 +147,37 @@
 
 
     <!-- contact page  -->
-    <div>
-        <h1 class="contact-heading">CONTACT</h1>
-        <div class="mapcont">
-            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d53714.17363040485!2d74.8781568!3d32.7090176!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1688034938524!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <h1 id="Contact-heading" class="contact-heading">CONTACT</h1>
+    <div class="mapcont">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3768.914238078586!2d77.31747!3d19.155231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDA5JzE4LjgiTiA3N8KwMTknMDIuOSJF!5e0!3m2!1sen!2sin!4v1688308459752!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="contact-form container">
+        <div>
+            <h3>Inquiries</h3>
+            <p>For any inquiries, questions or commendations, please<br> call: 123-456-7890 or fill out the following form</p>
+            <h3>Contact Us</h3>
+            <!-- form  -->
+            <form class="Contact-us-form" action="" method="post">
+                <label for="">First Name </label>
+                <input type="text">
+                <label for="">Last Name </label>
+                <input type="text">
+                <label for="">Email* </label>
+                <input type="email">
+                <label for="">Subject </label>
+                <input type="text">
+                <label for="">Message </label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <button class="btn btn-warning" type="submit">submit</button>
+            </form>
+        </div>
+        <div>
+            <h3>Head Office</h3>
+            <p>500 Terry Francine Street<br>San Francisco, CA 94158</p>
+            <p>info@mysite.com<br>Tel: 123-456-7890<br>Fax: 123-456-7890</p>
+            <h3>Employment</h3>
+            <p>To apply for a job with Sphere Constuctions,<br>please send a cover letter together with your<br>C.V. to: info@mysite.com</p>
+            <h3>Get a quote: 123-456-7890</h3>
         </div>
     </div>
 
@@ -164,6 +193,11 @@
                 <div class="sponsers col-2">VIDE</div>
                 <div class="sponsers col-2">UMBER & CO</div>
             </div>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright bg-dark text-light">
+            © Copyright by UMBER. All rights reserved
         </div>
     </footer>
 
