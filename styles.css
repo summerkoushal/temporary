@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+.badges {
+    height: 8px;
+    width: 80px;
+    background-color: orange;
+    margin: 20px auto;
+}
+
+.nav-link:hover {
+    /* color: rgb(130, 130, 0); */
+    font-weight: 500;
+    color: midnightblue;
+    border-bottom: 2px solid midnightblue;
+}
+
 /* header */
 header {
     display: flex;
@@ -37,7 +51,6 @@ ul {
     padding-left: 1rem;
     width: 100px;
 }
-
 
 .nav-link-container {
     display: flex;
@@ -80,7 +93,6 @@ ul {
 }
 
 /* services styling  */
-
 .service-heading {
     text-align: center;
     margin-top: 40px;
@@ -100,10 +112,6 @@ ul {
     border-radius: 0px;
     width: 25vw !important;
 }
-/* 
-.card-text {
-    font-size: 4rem p !important;
-} */
 
 .card-img-top {
     border-radius: 0px;
@@ -119,7 +127,14 @@ ul {
 
 h2 {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+}
+
+.call-btn {
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 /* about  */
@@ -220,7 +235,7 @@ h2 {
     text-align: center;
     color: white;
     padding: 10px;
-    /* background-color: pink; */
+    font-size: 14px;
 }
 
 .contact-form {
@@ -241,12 +256,10 @@ h3 {
 
 label, input, textarea {
     margin: 4px;
-    /* text-align: center; */
 }
 
 .submit-form {
     margin: 20px auto;
-    /* margin: auto; */
     width: 150px;
 }
 
@@ -295,6 +308,12 @@ label, input, textarea {
         width: 80%;
         margin: auto;
     }
+    .call-btn {
+        font-size: 1.25rem;
+    }
+    .copyright {
+        font-size: 12px;
+    }
 }
 
 /* for mobile version */
@@ -311,5 +330,11 @@ label, input, textarea {
     }
     .contact-form {
     margin: 1rem auto;
+    }
+    .call-btn {
+        font-size: 1rem;
+    }
+    .copyright {
+        font-size: 10px;
     }
 }
