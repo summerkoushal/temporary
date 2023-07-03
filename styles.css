@@ -277,6 +277,10 @@ label, input, textarea {
 
 /* for tablet version */
 @media (width <= 768px) {
+    /* Changed font-size to 30 pixels to make it tablet friendly. Phillip Andrews*/
+    .overhead-content {
+        font-size: 30px;
+    }
     .nav-dropdown {
         display: inline-block;
         margin-right: 20px;
@@ -330,6 +334,10 @@ label, input, textarea {
 
 /* for mobile version */
 @media (width <= 480px) {
+    /* Changed font-size to 24 pixels to make it mobile friendly. Phillip Andrews*/
+    .overhead-content {
+        font-size: 24px;
+    }
     .nav-dropdown {
         display: inline-block;
         margin-right: 15px;
