@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-.owner {
-    margin: 3rem auto;
-}
-
 .front-logo-container {
     text-align: center;
     position: absolute;
@@ -89,12 +85,15 @@ ul {
     object-fit: fill;
     filter: blur(2px);
 }
-
-#carouselExampleAutoplaying {
-    width: 70%;
-    /* display: block !important; */
-    text-align: center;
-    margin: 20px auto;
+#carouselExampleSlidesOnly {
+    margin: 0;
+}
+.carousel {
+    margin: 30px 0px;
+}
+.corosal {
+    width: 80vw !important;
+    margin-left: 10vw;
 }
 
 .div-container {
@@ -146,14 +145,7 @@ ul {
 
 h2 {
     text-align: center;
-    margin: 10px;
-}
-
-.call-btn {
-    font-size: 1.5rem;
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: 15px;
 }
 .videobar {
     margin: 40px;
@@ -161,12 +153,13 @@ h2 {
 /* about  */
 .about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
+    min-height: 500px;
 }
 
 .about-content {
-    width: 50vw;
+    width: 55vw;
 }
 
 .about-heading {
@@ -175,24 +168,33 @@ h2 {
 }
 
 .about-paragraph {
-    padding: 20px;
-    font-size: 1.5rem;
+    /* padding: 1rem; */
+    font-size: 1.1rem;
+    margin: 60px auto;
 }
 
 .about-image {
-    width: 50vw;
+    /* width: 50vw; */
     align-self: center;
 }
-
-.project-numbers {
+.owner-image {
+    width: 16rem;
+}
+/* achievements  */
+.achievements-numbers {
     display: flex;
+    min-height: 150px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
 }
 
-.project-box {
-    font-weight: bolder;
+.achievements-box {
+    font-weight: 500;
     text-align: center;
-    font-size: 12px;
-    margin: 30px;
+    font-size: 1.1rem;
+    width: 25vw;
+    margin: 30px auto;
 }
 
 .projects-heading {
@@ -205,10 +207,18 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.gall {
+.gallery-container {
+    margin: 20px;
+}
+.gallery {
     width: 25rem;
-    margin: 20px 20px;
+    margin: 10px;
+    max-width: 90vw;
+}
+
+.gallery-para {
+    margin: -5px 20px 20px 20px;
+    font-size: 1rem;
 }
 
 .client-heading {
@@ -297,11 +307,15 @@ label, input, textarea {
     .bg-video {
         min-height: 45rem;
     }
+    /* about  */
     .about {
         flex-direction: column;
     }
+    .about-paragraph {
+        margin: 3rem 5rem;
+    }
     .about-image {
-        width: 100vw;
+        margin-bottom: 2rem;
     }
     .about-content {
         width: 100vw;
@@ -341,10 +355,19 @@ label, input, textarea {
 /* for mobile version */
 @media (width <= 480px) {
 
+    /* about  */
+    .about-paragraph {
+        /* margin-left: 30vw; */
+        margin: 2rem 1rem;
+    }
     /* about - video of mall  */
     .bg-video {
         min-height: 30rem;
     }
+    /* achievements  */
+    .achievements-box {
+    width: 50vw;
+}
     /* contact page  */
     .contact-form {
     margin: 1rem auto;
