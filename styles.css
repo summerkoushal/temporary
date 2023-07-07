@@ -19,8 +19,6 @@
 .heading-first-about {
     margin-top: 130px;
     text-align: center;
-
-
 }
 .heading-about-second {
     /* text-align: center;
@@ -204,27 +202,46 @@ ul {
     font-size: 1.5rem;
     color: #435873;
 }
-
+h1.about-heading {
+    margin-top: 4rem;
+}
 h2 {
     text-align: center;
     margin: 15px;
 }
 .videobar {
-    margin: 20px 30px;
+    /* margin: 20px 30px; */
+    width: 30vw;
+    margin-top: 4rem;
+}
+p.about-paragraph {
+    margin-top: 2rem;
+}
+.image-amrit-mall {
+    height: 80vh;
+    width: 50vw ;
+    margin: 40px 40px 40px 80px;
 }
 /* about  */
 .about {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+    justify-content: space-between;
     min-height: 500px;
+}
+.aboutamrit {
+    display: flex;
+    /* justify-content: space-between; */
 }
 
 .about-content {
     width: 40vw;
-    margin-left: 10px;
+    margin-left: 20px;
     /* justify-self: center; */
     margin-top: 100px;
+}
+.about-contents {
+    margin-left: 3rem;
 }
 .ownerbadge {
     width: 20vw;
@@ -238,9 +255,7 @@ h2 {
 }
 
 .about-paragraph {
-    padding: 0;
     font-size: 1.1rem;
-    margin: 20px 20px;
 }
 
 .about-image {
@@ -248,8 +263,8 @@ h2 {
     align-self: center;
 }
 .owner-image {
-    width: 35rem;
-    margin: 20px;
+    width: 33rem;
+    /* margin: 20px; */
 }
 /* achievements  */
 .achievements-numbers {
