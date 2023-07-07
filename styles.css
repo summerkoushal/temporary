@@ -10,18 +10,18 @@
     margin: 3rem auto;
 }
 
-.overhead {
+.front-logo-container {
     text-align: center;
     position: absolute;
     top: 20vh;
     left: 20vw;
 }
 
-.overhead-content {
+.front-logo {
     position: absolute;
     color: white;
     font-size: 60px;
-    width: 800px;
+    width: 60vw;
     z-index: 1;
 }
 
@@ -33,7 +33,6 @@
 }
 
 .nav-link:hover {
-    /* color: rgb(130, 130, 0); */
     font-weight: 500;
     color: midnightblue;
     border-bottom: 2px solid midnightblue;
@@ -288,11 +287,6 @@ label, input, textarea {
 
 /* for tablet version */
 @media (width <= 768px) {
-    /* Changed font-size to 30 pixels to make it tablet friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 30px;
-        width: 200px;
-    }
     .nav-dropdown {
         display: inline-block;
         margin-right: 20px;
@@ -346,27 +340,16 @@ label, input, textarea {
 
 /* for mobile version */
 @media (width <= 480px) {
-    /* Changed font-size to 24 pixels to make it mobile friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 24px;
-        width: 100px;
-    }
-    .nav-dropdown {
-        display: inline-block;
-        margin-right: 15px;
-    }
-    .nav-link-container {
-        display: none;
-    }
+
+    /* about - video of mall  */
     .bg-video {
-        min-height: 40rem;
+        min-height: 30rem;
     }
+    /* contact page  */
     .contact-form {
     margin: 1rem auto;
     }
-    .call-btn {
-        font-size: 1rem;
-    }
+    /* copyright footer  */
     .copyright {
         font-size: 10px;
     }
