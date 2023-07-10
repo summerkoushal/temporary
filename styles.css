@@ -273,7 +273,6 @@ p.about-paragraph {
     min-height: 150px;
     align-items: center;
     /* justify-content: space-evenly; */
-    flex-wrap: wrap;
 }
 
 .achievements-box {
