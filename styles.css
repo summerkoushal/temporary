@@ -2,26 +2,79 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    max-width: 100vw;
     box-sizing: border-box;
 }
-
-.owner {
-    margin: 3rem auto;
+.heading-disc-about {
+    display: flex;
+    align-items: center;
+    background-color: white;
 }
-
-.overhead {
+.disc-img {
+    width: 20rem;
+    margin: 20px 20px 0px 20px;
+}
+.heading-first-about {
+    margin-top: 130px;
+    text-align: center;
+}
+.heading-about-second {
+    /* text-align: center;
+    width: 20%; */
+    font-weight: bolder;
+    color: darkslategray;
+}
+.para {
+    font-size: 23px;
+}
+.line {
+    border: 2px solid black;
+    width: 65vw;
+}
+.logo-about {
+    width: 6vw;
+}
+.logo1 {
+    /* width: 12vw; */
+}
+.logo2 {
+    width: 10vw;
+}
+.logo3 {
+    /* width: 12vw; */
+}
+.aboutbadge {
+    margin: -10px 0px 0px 20px !important;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-around !important;
+    /* align-items: center; */
+    margin: 40px auto;
+}
+.container1, .container2, .container3 {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    /* text-align: center; */
+}
+.content-logo {
+    margin: 10px;
+}
+.contentlogo1 {
+    /* margin: 40px; */
+}
+.front-logo-container {
     text-align: center;
     position: absolute;
     top: 20vh;
     left: 20vw;
 }
 
-.overhead-content {
+.front-logo {
     position: absolute;
     color: white;
     font-size: 60px;
-    width: 800px;
+    width: 60vw;
     z-index: 1;
 }
 
@@ -33,7 +86,6 @@
 }
 
 .nav-link:hover {
-    /* color: rgb(130, 130, 0); */
     font-weight: 500;
     color: midnightblue;
     border-bottom: 2px solid midnightblue;
@@ -90,12 +142,15 @@ ul {
     object-fit: fill;
     filter: blur(2px);
 }
-
-#carouselExampleAutoplaying {
-    width: 70%;
-    /* display: block !important; */
-    text-align: center;
-    margin: 20px auto;
+#carouselExampleSlidesOnly {
+    margin: 0;
+}
+.carousel {
+    margin: 30px 0px;
+}
+.corosal {
+    width: 80vw !important;
+    margin-left: 10vw;
 }
 
 .div-container {
@@ -144,53 +199,98 @@ ul {
     font-size: 1.5rem;
     color: #435873;
 }
+h1.about-heading {
+    margin-top: 4rem;
+}
 
+about-heading {
+    text-align: center;
+    margin: 3px 20px;
+}
 h2 {
     text-align: center;
-    margin: 10px;
+    margin: 15px;
 }
-
-.call-btn {
-    font-size: 1.5rem;
-    display: block;
-    margin: auto;
-    margin-bottom: 30px;
+h2.about-heading {
+    margin: 50px auto;
+    display: inline;
 }
-
+p.about-paragraph.container {
+    margin-bottom: 50px;
+}
+.videobar {
+    /* margin: 1px 1px; */
+    /* width: 10%; */
+    /* margin-bottom: 30px; */
+    width: 98%;
+    /* margin-top: 9.7rem; */
+}
+p.about-paragraph {
+    margin: 2rem auto !important;
+}
+.image-amrit-mall {
+    height: 130vh;
+    width: 55vw;
+    margin: 40px 40px 40px 110px;
+}
 /* about  */
 .about {
     display: flex;
+    justify-items: center;
     justify-content: space-between;
-    flex-direction: row;
 }
-
+.amrit-image {
+    width: 55%;
+}
+.aboutamrit {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: auto 20px;
+}
+.owner-image {
+    width: 45vw;
+    padding: 10px;
+}
 .about-content {
-    width: 50vw;
+    width: 40vw;
+    align-self: center;
+    margin-left: 3rem;
 }
-
-.about-heading {
-    text-align: center;
-    margin: 35px;
+.about-contents {
+    /* margin-left: 3rem; */
+    width: 100% ;
+    /* margin: auto; */
 }
-
+.ownerbadge {
+    width: 250px;
+    /* text-align: left; */
+    /* margin: 0px; */
+    margin-left: 0px;
+    margin-top: -20px;
+}
 .about-paragraph {
-    padding: 20px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .about-image {
-    width: 50vw;
+    /* width: 100%; */
+    align-self: center;
 }
-
-.project-numbers {
+/* achievements  */
+.achievements-numbers {
     display: flex;
+    min-height: 150px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
 }
 
-.project-box {
-    font-weight: bolder;
+.achievements-box {
+    font-weight: 500;
     text-align: center;
-    font-size: 12px;
-    margin: 30px;
+    font-size: 1.1rem;
+    width: 25vw;
+    margin: 30px auto;
 }
 
 .projects-heading {
@@ -203,10 +303,18 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-.gall {
+.gallery-container {
+    margin: 20px;
+}
+.gallery {
     width: 25rem;
-    margin: 20px 20px;
+    margin: 10px;
+    max-width: 90vw;
+}
+
+.gallery-para {
+    margin: -5px 20px 20px 20px;
+    font-size: 1rem;
 }
 
 .client-heading {
@@ -285,11 +393,6 @@ label, input, textarea {
 
 /* for tablet version */
 @media (width <= 768px) {
-    /* Changed font-size to 30 pixels to make it tablet friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 30px;
-        width: 200px;
-    }
     .nav-dropdown {
         display: inline-block;
         margin-right: 20px;
@@ -300,14 +403,34 @@ label, input, textarea {
     .bg-video {
         min-height: 45rem;
     }
+    /* about  */
     .about {
         flex-direction: column;
     }
-    .about-image {
-        width: 100vw;
+    .aboutamrit {
+        flex-direction: column;
+    }
+    .amrit-image {
+        width: 100%;
+    }
+    .owner-image {
+        width: 90vw;
+        margin: 5vw;
+        padding: 0px;
     }
     .about-content {
-        width: 100vw;
+        width: 80vw;
+        margin: 0px;
+        padding: 0px;
+    }
+    .about-paragraph {
+        margin: 0px !important;
+        /* display: inline; */
+        padding: 0;
+    }
+    .about-image {
+        width: 100%;
+        margin-bottom: 2rem;
     }
     .services-content-container {
         flex-direction: column;
@@ -339,32 +462,44 @@ label, input, textarea {
     .copyright {
         font-size: 12px;
     }
+    .videobar {
+        width: 90% !important;
+    }
+    .about-contents {
+        /* margin-left: 3rem; */
+        width: 90vw;
+        /* margin: auto; */
+    }
 }
 
 /* for mobile version */
 @media (width <= 480px) {
-    /* Changed font-size to 24 pixels to make it mobile friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 24px;
-        width: 100px;
+
+    /* about  */
+    .about-heading {
+        margin-top: 40px;
     }
-    .nav-dropdown {
-        display: inline-block;
-        margin-right: 15px;
+    .about-paragraph {
+        /* margin-left: 30vw; */
+        margin-bottom: 30px !important;
     }
-    .nav-link-container {
-        display: none;
-    }
+    /* about - video of mall  */
     .bg-video {
-        min-height: 40rem;
+        min-height: 30rem;
     }
+    /* achievements  */
+    .achievements-box {
+    width: 50vw;
+    }
+    /* contact page  */
     .contact-form {
     margin: 1rem auto;
     }
-    .call-btn {
-        font-size: 1rem;
-    }
+    /* copyright footer  */
     .copyright {
         font-size: 10px;
+    }
+    .ownerbadge {
+        width: 60vw;
     }
 }
