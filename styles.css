@@ -4,6 +4,43 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+/* navbar */
+.logo {
+    margin: 6px 0px;
+    width: 100px;
+}
+.logo-img {
+    padding-left: 1rem;
+    width: 100px;
+}
+.nav-link-container {
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+}
+.nav-link:hover {
+    font-weight: 500;
+    color: midnightblue;
+    border-bottom: 2px solid midnightblue;
+}
+/* navbar dropdown  */
+.nav-dropdown {
+    display: none;
+}
+/* front page  */
+/* carousal  */
+/* about us  */
+/* achievements  */
+/* owner  */
+/* amrit mall  */
+/* projects  */
+/* services  */
+/* map */
+/* contact us  */
+/* form  */
+/* clients  */
+/* copyright  */
+
 .heading-disc-about {
     display: flex;
     align-items: center;
@@ -18,8 +55,6 @@
     text-align: center;
 }
 .heading-about-second {
-    /* text-align: center;
-    width: 20%; */
     font-weight: bolder;
     color: darkslategray;
 }
@@ -42,14 +77,10 @@
 .logo-container {
     display: flex;
     justify-content: space-around !important;
-    /* align-items: center; */
     margin: 40px auto;
 }
 .container1, .container2, .container3 {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-evenly; */
-    /* text-align: center; */
 }
 .content-logo {
     margin: 10px;
@@ -75,13 +106,6 @@
     background-color: orange;
     margin: 20px auto;
 }
-
-.nav-link:hover {
-    font-weight: 500;
-    color: midnightblue;
-    border-bottom: 2px solid midnightblue;
-}
-
 /* header */
 header {
     display: flex;
@@ -104,26 +128,8 @@ ul {
     margin-bottom: 0px;
 }
 
-.logo {
-    margin: 6px 0px;
-    width: 100px;
-}
 
-.logo-img {
-    padding-left: 1rem;
-    width: 100px;
-}
 
-.nav-link-container {
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: space-evenly;
-    /* flex-wrap: wrap; */
-}
-
-.nav-dropdown {
-    display: none;
-}
 
 /* main body styling  */
 .bg-video {
@@ -210,11 +216,7 @@ p.about-paragraph.container {
     margin-bottom: 50px;
 }
 .videobar {
-    /* margin: 1px 1px; */
-    /* width: 10%; */
-    /* margin-bottom: 30px; */
     width: 98%;
-    /* margin-top: 9.7rem; */
 }
 p.about-paragraph {
     margin: 2rem auto !important;
@@ -235,7 +237,6 @@ p.about-paragraph {
 }
 .aboutamrit {
     display: flex;
-    /* justify-content: space-between; */
     margin: auto 20px;
 }
 .owner-image {
@@ -248,14 +249,10 @@ p.about-paragraph {
     margin-left: 3rem;
 }
 .about-contents {
-    /* margin-left: 3rem; */
     width: 100% ;
-    /* margin: auto; */
 }
 .ownerbadge {
     width: 250px;
-    /* text-align: left; */
-    /* margin: 0px; */
     margin-left: 0px;
     margin-top: -20px;
 }
@@ -264,15 +261,18 @@ p.about-paragraph {
 }
 
 .about-image {
-    /* width: 100%; */
     align-self: center;
 }
 /* achievements  */
 .achievements-numbers {
     display: flex;
+    flex-direction: row;
     min-height: 150px;
     align-items: center;
-    /* justify-content: space-evenly; */
+}
+.achievement-boxes {
+    width: 50vw;
+    display: flex;
 }
 
 .achievements-box {
@@ -280,7 +280,6 @@ p.about-paragraph {
     text-align: center;
     font-size: 1.1rem;
     width: 25vw;
-    margin: 30px auto;
 }
 
 .projects-heading {
@@ -380,20 +379,43 @@ label, input, textarea {
     margin: 20px auto;
     width: 150px;
 }
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
 
 /* for tablet version */
 @media (width <= 768px) {
-    /* Changed font-size to 30 pixels to make it tablet friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 30px;
+    /* navbar */
+    .nav-link-container {
+        display: none;
     }
+    /* navbar dropdown  */
     .nav-dropdown {
         display: inline-block;
         margin-right: 20px;
     }
-    .nav-link-container {
-        display: none;
+    /* front page  */
+    /* carousal  */
+    /* about us  */
+    /* achievements  */
+    /* owner  */
+    /* amrit mall  */
+    /* projects  */
+    /* services  */
+    /* map */
+    /* contact us  */
+    /* form  */
+    /* clients  */
+    /* copyright  */
+
+    .feature {
+        height: 50px;
+        width: 50px;
     }
+
+
     .bg-video {
         min-height: 45rem;
     }
@@ -419,7 +441,6 @@ label, input, textarea {
     }
     .about-paragraph {
         margin: 0px !important;
-        /* display: inline; */
         padding: 0;
     }
     .about-image {
@@ -468,17 +489,29 @@ label, input, textarea {
 
 /* for mobile version */
 @media (width <= 480px) {
-    /* about  */
-    .about-heading {
-        margin-top: 40px;
-    }
-    /* Changed font-size to 24 pixels to make it mobile friendly. Phillip Andrews*/
-    .overhead-content {
-        font-size: 24px;
-    }
+    /* navbar */
+    /* navbar dropdown  */
     .nav-dropdown {
         display: inline-block;
         margin-right: 15px;
+    }
+    /* front page  */
+    /* carousal  */
+    /* about us  */
+    /* achievements  */
+    /* owner  */
+    /* amrit mall  */
+    /* projects  */
+    /* services  */
+    /* map */
+    /* contact us  */
+    /* form  */
+    /* clients  */
+    /* copyright  */
+
+    /* about  */
+    .about-heading {
+        margin-top: 40px;
     }
     .about-paragraph {
         /* margin-left: 30vw; */
@@ -490,7 +523,8 @@ label, input, textarea {
     }
     /* achievements  */
     .achievements-box {
-    width: 50vw;
+    width: 25vw;
+    margin: 1.5rem auto;
     }
     /* contact page  */
     .contact-form {
@@ -502,5 +536,12 @@ label, input, textarea {
     }
     .ownerbadge {
         width: 60vw;
+    }
+    .achievements-numbers {
+        flex-direction: column;
+    }
+    .achievement-boxes {
+        width: 100vw;
+        justify-content: space-evenly;
     }
 }
