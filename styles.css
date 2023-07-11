@@ -89,6 +89,26 @@ header {
 }
 
 /* about us  */
+.para {
+    font-size: 1.2rem;
+    margin: 50px;
+}
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.container-logo {
+    display: flex;
+}
+.logo-about {
+    width: 60px;
+    height: 60px;
+}
+.content-logo {
+    margin-left: 10px;
+    align-self: center !important;
+}
 
 /* achievements  */
 .achievements-numbers {
@@ -178,6 +198,7 @@ p.about-paragraph {
 }
 .amrit-image {
     width: 55%;
+    margin-bottom: 1rem;
 }
 .videobar {
     width: 100vw;
@@ -320,32 +341,12 @@ label, input, textarea {
     font-weight: bolder;
     color: darkslategray;
 }
-.para {
-    font-size: 23px;
-}
 .line {
     border: 2px solid black;
     width: 65vw;
 }
-.logo-about {
-    width: 6vw;
-}
-.logo2 {
-    width: 10vw;
-}
 .aboutbadge {
     margin: -10px 0px 0px 20px !important;
-}
-.logo-container {
-    display: flex;
-    justify-content: space-around !important;
-    margin: 40px auto;
-}
-.container1, .container2, .container3 {
-    display: flex;
-}
-.content-logo {
-    margin: 10px;
 }
 li {
     color: black;
@@ -383,6 +384,13 @@ h2.about-heading {
     }
     /* carousal  */
     /* about us  */
+    .logo-about {
+        width: 50px;
+        height: 50px;
+    }
+    .content-logo {
+        font-size: 0.8rem;
+    }
     /* achievements  */
     /* owner  */
     .about {
@@ -468,6 +476,20 @@ h2.about-heading {
     }
     /* carousal  */
     /* about us  */
+    .para {
+        font-size: 1rem;
+        margin: 20px;
+    }
+    .logo-container {
+        margin: 30px auto;
+    }
+    .logo-about {
+        width: 40px;
+        height: 40px;
+    }
+    .content-logo {
+        font-size: 0.5rem;
+    }
     /* achievements  */
     .achievements-numbers {
         flex-direction: column;
