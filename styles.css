@@ -4,7 +4,12 @@
     list-style-type: none;
     box-sizing: border-box;
 }
-
+.demo {
+    position: relative;
+    z-index: 2;
+    top: 20vh;
+    left: -10vw;
+}
 .badges {
     height: 8px;
     width: 80px;
