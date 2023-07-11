@@ -272,15 +272,17 @@
             <p>For any inquiries, questions or commendations, please<br> call: 817-788-8079 or fill out the following form</p>
             <h3>Contact Us</h3>
             <!-- form  -->
-            <form class="Contact-us-form" action="" method="post">
-                <label for="">First Name </label>
-                <input id="firstname" type="text">
-                <label for="">Last Name </label>
-                <input id="lastname" type="text">
-                <label for="">Email* </label>
-                <input id="email" type="email">
-                <label for="">Message </label>
-                <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+            <form class="Contact-us-form" action="https://formspree.io/f/xaygypvn" method="POST" >
+                <label for="">First Name*</label>
+                <input name="firstname" type="text" required autocomplete="off">
+                <label for="">Last Name*</label>
+                <input name="lastname" type="text" required autocomplete="off">
+                <label for="">Email*</label>
+                <input name="email" type="email" required autocomplete="off">
+                <label for="">Subject*</label>
+                <input name="subject" type="text" required autocomplete="off">
+                <label for="">Message*</label>
+                <textarea name="message" id="textarea" cols="30" rows="10" required autocomplete="off"></textarea>
                 <button id="submit" class="btn btn-warning submit-form" type="submit">submit</button>
             </form>
         </div>
